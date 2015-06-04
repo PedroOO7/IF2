@@ -30,6 +30,9 @@
         <statement name="DO1">
           <block type="movement_forward" id="178"></block>
         </statement>
+        <statement name="ELSE">
+          <block type="movement_forward" id="275"></block>
+        </statement>
         <next>
           <block type="robot_delay" id="186" inline="true">
             <value name="DELAY">
