@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="40" inline="false" x="57" y="38">
+  <block type="controls_whileUntil" id="40" inline="false" x="62" y="75">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="79">
@@ -27,6 +27,9 @@
         <statement name="DO0">
           <block type="movement_right" id="153"></block>
         </statement>
+        <statement name="DO1">
+          <block type="movement_forward" id="178"></block>
+        </statement>
         <next>
           <block type="robot_delay" id="186" inline="true">
             <value name="DELAY">
@@ -42,5 +45,4 @@
       <block type="movement_stop" id="255"></block>
     </next>
   </block>
-  <block type="movement_forward" id="178" x="139" y="193"></block>
 </xml>
