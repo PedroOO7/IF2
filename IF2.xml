@@ -28,7 +28,7 @@
           <block type="movement_right" id="153"></block>
         </statement>
         <statement name="DO1">
-          <block type="movement_forward" id="178"></block>
+          <block type="movement_left" id="286"></block>
         </statement>
         <statement name="ELSE">
           <block type="movement_forward" id="275"></block>
